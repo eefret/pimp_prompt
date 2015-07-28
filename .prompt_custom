@@ -79,14 +79,6 @@ function __pimp_prompt {
 	local EMM="\[\033[1;35m\]" # bold magenta
 	local EMC="\[\033[1;36m\]" # bold cyan
 	local EMW="\[\033[1;37m\]" # bold white
-	local BGK="\[\033[40m\]" # background black
-	local BGR="\[\033[41m\]" # background red
-	local BGG="\[\033[42m\]" # background green
-	local BGY="\[\033[43m\]" # background yellow
-	local BGB="\[\033[44m\]" # background blue
-	local BGM="\[\033[45m\]" # background magenta
-	local BGC="\[\033[46m\]" # background cyan
-	local BGW="\[\033[47m\]" # background white
 
 	#[{# in prompt}:{# in history}] Hour:Minutes [user@host] location
 	local BASE_FORMAT="$EMK[\#:\!]$NONE $G\A$NONE $EMB[\u@\H]$NONE $W\w$NONE"
