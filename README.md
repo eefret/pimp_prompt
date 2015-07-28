@@ -13,7 +13,7 @@ Want to have a beautifull, colorful and informativ bash prompt, just import this
 
 And it will automatically change it to this:
 
-![Alt text]
+![screenshot](/img/wrap_up.png?raw=true "wrap up")
 
 #### Features
 
